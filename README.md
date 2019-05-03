@@ -1,7 +1,3 @@
----
-typora-root-url: Meituan\view
----
-
 ##  美团（美食）店铺信息爬虫
 
 &emsp; 通过接口抓取美团美食店铺信息，并做相关的数据分析。
@@ -53,33 +49,21 @@ python common.py
 python meituan.py
 ```
 
-&emsp; 或将 common.py、meituan.py 中的相关函数引入到 run.py 后执行：
-
-```
-python run.py
-```
-
 ## 数据分析
 
 - 美食店铺名称词云
 
-![词云](/key.png)
+![词云](https://github.com/Northxw/Meituan/blob/master/view/key.png)
 
 - 西安美食店铺排行榜前10名( 仅限美团数据 ) 
 
-![2](/top10.jpg)
-
-- 评分占比
-
-  ![3](/ratio.jpg)
-
-- 人均价格与评论数量的相关性分析
-
-  ![4](/pricom.jpg)
+![2](https://github.com/Northxw/Meituan/blob/master/view/top10.jpg)
 
 - MySql 数据
 
-  ![5](/db.png)
+![4](https://github.com/Northxw/Meituan/blob/master/view/db.png)
+
+&emsp; 另外，还做了美食店铺评分占比、人均用餐价与评论数量的相关联性分析。
 
 ## 公告
 
