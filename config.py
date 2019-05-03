@@ -92,7 +92,7 @@ MAX_PAGES = 50
 # MYSQL SETTINGS
 HOST = 'localhost'
 USER = 'root'
-PASS = '0513'
+PASS = '123456'
 PORT = 3306
 DB = 'meituan'
 TABLE = 'meishi'
@@ -103,7 +103,7 @@ API = ''
 # PROXY SETTINGS
 PROXY_HOST = "http-dyn.abuyun.com"
 PROXY_PORT = "9020"
-PROXY_USER = "HU4C31F1184DR57D"
+PROXY_USER = "HU4C31nmfiDR57D"
 PROXY_PASS = "2D4F3B8489F5FC91"
 
 if __name__ == '__main__':
